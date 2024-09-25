@@ -1,12 +1,12 @@
 {
   "name": "chaintech-network",
-  "homepage": "https://ritika-trivedi.github.io/TASK/",
+  "homepage": "https://ritika-trivedi.github.io/asignment/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "install": "^0.13.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
